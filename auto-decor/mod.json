@@ -1,0 +1,26 @@
+{
+	"geode": "5.0.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "nives.auto-decor",
+	"name": "Auto Decor Mod",
+	"version": "v0.2.0",
+	"developer": "Nives",
+	"description": "Created by Nives. Adds decoration to the layout you already built: pick a style in an animated editor UI, preview before/after, and apply.",
+	"tags": ["editor", "enhancement"],
+	"settings": {
+		"density": {
+			"name": "Decoration density",
+			"description": "How much decor gets added (1 = sparse, 10 = packed).",
+			"type": "int",
+			"default": 6,
+			"min": 1,
+			"max": 10,
+			"control": { "slider": true }
+		}
+	}
+}
